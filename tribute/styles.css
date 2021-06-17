@@ -1,0 +1,97 @@
+body{
+  background-color: #BFCBA8;
+}
+.container-fluid{
+  background-color: #464F41;
+  padding-bottom: 0.2%;
+}
+h1{
+  text-align: center;
+  font-size: 400%;
+  font-family: 'DM Serif Text', serif;
+  color:#5B8A72;
+}
+.beg{
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font-size: 150%;
+  color:#BFCBA8;
+}
+#img-div{
+  margin: 10% 10%;
+  margin-top:10%;
+  margin-bottom: 10%;
+  background-color:#5B8A72;
+  animation-name: fade;
+     animation-duration: 5s;
+   }
+
+   @keyframes fade {
+     0% {
+       left: -50%;
+ opacity:0.05;
+     }
+   }
+#image{
+display:block;
+padding-top: 5%;
+margin-left: auto;
+margin-right: auto;
+  width:90%;
+}
+figcaption{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100%;
+  text-align: center;
+  color:#464F41;
+  font-weight: bold;
+
+}
+#img-div:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+ }
+ #tribute-info{
+   background-color: #56776C;
+
+ }
+ h2{
+     font-family: 'DM Serif Text', serif;
+     text-align: center;
+     font-size: 290%;
+     margin-bottom: 5%;
+ }
+ .mytext{
+   margin-left: 20%;
+   margin-right: 20%;
+   font-family: 'Source Sans Pro', sans-serif;
+   color:#BFCBA8;
+   font-size: 150%;
+    text-align: left;
+    line-height: 1.5;
+
+ }
+ .quote{
+   font-size: 90%;
+   font-family: 'Caveat', cursive;
+ }
+ h3{
+   padding-top: 5%;
+   padding-bottom: 3%;
+   font-family: 'Source Sans Pro', sans-serif;
+   text-align: center;
+   font-size: 200%;
+   color:#5B8A72;
+ }
+ a{
+   text-decoration: none;
+   color:#464F41;
+ }
+ a:hover{
+   color:#283148;
+   text-decoration: none;
+   font-size: 2.4rem;
+ }
+ .end{
+   background-color: #BFCBA8;
+ }
